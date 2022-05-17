@@ -6,6 +6,7 @@
 - [How to change a team?](#how-to-change-a-team)
 - [Can I change my team name?](#can-ichange-my-team-name)
 - [How to reset the password?](#how-to-reset-the-password)
+- [When I reset my password, do I also change the password for the whole team?](#when-i-reset-my-password-do-i-also-change-the-password-for-the-whole-team)
 - [How to join an existing team?](#how-to-join-an-existing-team)
 - [How to find new team members?](#how-to-find-new-team-members)
 - [If I already registered a team, do the other team members also have to register?](#if-i-already-registered-a-team-do-the-other-team-members-also-have-to-register)
@@ -42,6 +43,10 @@
 - Forgot Password page would be rendered. 
 - You will receive the link to reset the password. 
 - Once the password is changed, you can log in using the new password.
+
+## When I reset my password, do I also change the password for the whole team?
+
+- NO. When we sign up a team, we have the same password for the whole team members, but if a team member change his/her password, he/she only changes his/her user login password.
 
 ## How to join an existing team?
 
