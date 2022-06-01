@@ -11,6 +11,7 @@
 - [How to find new team members?](#how-to-find-new-team-members)
 - [If I already registered a team, do the other team members also have to register?](#if-i-already-registered-a-team-do-the-other-team-members-also-have-to-register)
 - [Can working students also join the challenge?](#can-working-students-also-join-the-challenge)
+- [Why is it "up to value" of certain amount of Euro?](#why-is-it-up-to-value-of-certain-amount-of-euro)
 - [Where do I find the videos for the Tutorials?](#where-do-i-find-the-videos-for-the-tutorials)
 - [How can I access my AWS account?](#how-can-i-access-my-aws-account)
 - [The Sagemaker studio error states: Failed to change instance; what should I do?](#the-sagemaker-studio-error-states-failed-to-change-instance-what-should-i-do)
@@ -64,14 +65,18 @@
 
 - Yes.
 
+## Why is it "up to value" of certain amount of Euro?
+
+- Based on the conversion rate/exchange rate, it might not be the full cash prize in Euro.
+
 ## Where do I find the videos for the Tutorials?
 
-- You can find the videos on our Capgemini Stream. Click [here](TODO: add link).
+- You can find the videos on our Capgemini Stream. Link will be shared after the kick-off call.
 
 ## How can I access my AWS account? 
 
 - After your teams registration, you should have received an confirmation e-mail. The e-mail looks like this 
-> TODO: add mail screenshot 
+![](./screenshots/confirmation email.png)
 - After your confirmation, you will receive an e-mail from AWS (no-reply@login.awsapps.com) with the subject: 'Invitation to join AWS Single Sign-On'. This e-mail looks like this:
 ![](./screenshots/AWS_invite_mail.png)
 - Click on the button 'Accept Invitation' and enter your username from the invitation e-mail. You will be prompted to set a new password. 
