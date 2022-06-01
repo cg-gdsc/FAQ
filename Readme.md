@@ -47,7 +47,7 @@
 
 ## When I reset my password, do I also change the password for the whole team?
 
-- NO. When we sign up a team, we have the same password for the whole team members, but if a team member change his/her password, he/she only changes his/her user login password.
+- No. When we sign up a team, we have the same password for the whole team members, but if a team member change his/her password, he/she only changes his/her user login password.
 
 ## How to join an existing team?
 
