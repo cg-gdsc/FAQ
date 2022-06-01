@@ -76,7 +76,7 @@
 ## How can I access my AWS account? 
 
 - After your teams registration, you should have received an confirmation e-mail. The e-mail looks like this 
-![](./screenshots/confirmation email.png)
+![](./screenshots/confirmation_email.png)
 - After your confirmation, you will receive an e-mail from AWS (no-reply@login.awsapps.com) with the subject: 'Invitation to join AWS Single Sign-On'. This e-mail looks like this:
 ![](./screenshots/AWS_invite_mail.png)
 - Click on the button 'Accept Invitation' and enter your username from the invitation e-mail. You will be prompted to set a new password. 
