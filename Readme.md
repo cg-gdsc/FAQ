@@ -71,7 +71,7 @@
 
 ## Where do I find the videos for the Tutorials?
 
-- You can find the videos on our Capgemini Stream. Link will be shared after the kick-off call.
+- You can find the videos on our Capgemini Stream. The link will be shared after the kick-off call.
 
 ## How can I access my AWS account? 
 
@@ -83,7 +83,7 @@
 - You can now login using the link in the invitation e-mail under 'User portal URL'. The portal looks like this:
 ![](./screenshots/aws_apps_portal.png)
 - You will see your AWS Account after you logged in. Now you can click on 'Management Console' to access it.  
-
+- If you access your team's account for the first time, make sure to go through [Tutorial 1](https://github.com/gdsc5/Tutorial1_Setting_up_AWS) or watch the corresponding video.
 ## The Sagemaker studio error states: Failed to change instance; what should I do?
 
 Error message:
@@ -93,3 +93,9 @@ Error message:
 - What a few minutes. The instance is currently starting or stopping. After around 5-10 min, you should be able to either use it or start it again. 
 - Please check the resources tab in the left pane of Sagemaker Studio for more information of your current instances.
 - If you see the instance there, please make sure to select the kernel image first and afterwards the instance, if necessary.  
+
+
+## When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel..."
+
+- The image that we use is very big, it therefore can take some time to load. If it wasn't loaded after 10 minute, try to refresh your browser. 
+- If it still loads, try to shut down all running apps / instances (Shown in [Tutorial 1](https://github.com/gdsc5/Tutorial1_Setting_up_AWS)) and start the notebook again.
