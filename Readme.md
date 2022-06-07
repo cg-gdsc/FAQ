@@ -15,7 +15,7 @@
 - [Where do I find the videos for the Tutorials?](#where-do-i-find-the-videos-for-the-tutorials)
 - [How can I access my AWS account?](#how-can-i-access-my-aws-account)
 - [The Sagemaker studio error states: Failed to change instance; what should I do?](#the-sagemaker-studio-error-states-failed-to-change-instance-what-should-i-do)
-- [When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel..."](#when-opening-a-tutorial-the-sagemaker-studio-seems-to-be-stuck-in-the-state-"starting-notebook-kernel")
+- [When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"](#when-opening-a-tutorial-the-sagemaker-studio-seems-to-be-stuck-in-the-state-"starting-notebook-kernel")
 
 ## How many people can join one team?
 
@@ -96,7 +96,7 @@ Error message:
 - If you see the instance there, please make sure to select the kernel image first and afterwards the instance, if necessary.  
 
 
-## When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel..."
+## When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"
 
 - The image that we use is very big, it therefore can take some time to load. If it wasn't loaded after 10 minute, try to refresh your browser. 
 - If it still loads, try to shut down all running apps / instances (Shown in [Tutorial 1](https://github.com/gdsc5/Tutorial1_Setting_up_AWS)) and start the notebook again.
