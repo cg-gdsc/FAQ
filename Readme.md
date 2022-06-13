@@ -84,7 +84,7 @@
 - You can now login using the link in the invitation e-mail under 'User portal URL'. The portal looks like this:
 ![](./screenshots/aws_apps_portal.png)
 - You will see your AWS Account after you logged in. Now you can click on 'Management Console' to access it.  
-- If you access your team's account for the first time, make sure to go through [Tutorial 1](https://github.com/gdsc5/Tutorial1_Setting_up_AWS) or watch the corresponding video.
+- If you access your team's account for the first time, make sure to go through [Tutorial 1](https://github.com/gdsc5/Tutorial1_Setting_up_AWS) or watch the corresponding [video](https://web.microsoftstream.com/video/ce2af85f-e8b3-4445-ba43-2331baddb64a).
 ## The Sagemaker studio error states: Failed to change instance; what should I do?
 
 Error message:
