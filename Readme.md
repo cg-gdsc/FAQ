@@ -16,7 +16,7 @@
 - [How can I access my AWS account?](#how-can-i-access-my-aws-account)
 - [The Sagemaker studio error states: Failed to change instance; what should I do?](#the-sagemaker-studio-error-states-failed-to-change-instance-what-should-i-do)
 - [When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"](#when-opening-a-tutorial-the-sagemaker-studio-seems-to-be-stuck-in-the-state-"starting-notebook-kernel")
-
+- [AWS CLI doesn't work in sagemaker studio notebooks](#aws-cli-doesnt-work-in-sagemaker-studio-notebooks)
 ## How many people can join one team?
 
 - The max. size of a team is 4 people. 
@@ -100,3 +100,8 @@ Error message:
 
 - The image that we use is very big, it therefore can take some time to load. If it wasn't loaded after 10 minute, try to refresh your browser. 
 - If it still loads, try to shut down all running apps / instances (Shown in [Tutorial 1](https://github.com/gdsc5/Tutorial1_Setting_up_AWS)) and start the notebook again.
+
+## AWS CLI doesn't work in sagemaker studio notebooks
+
+- Reason: The image that we are using for the challenge doesn't support the AWS command line interface (cli) due to incompatible licenses in required packages.
+- Workaround: Open an <b> system </b> terminal via the launcher (see Tutorial 4 for reference). You can use the aws cli here. The filesystem is shared between all terminals / instances.
