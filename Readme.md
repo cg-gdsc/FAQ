@@ -4,7 +4,7 @@
 - [Can one person be in different teams?](#can-one-person-be-in-different-teams)
 - [How to create a team?](#how-to-create-a-team)
 - [How to change a team?](#how-to-change-a-team)
-- [Can I change my team name?](#can-ichange-my-team-name)
+- [Can I change my team name?](#can-i-change-my-team-name)
 - [How to reset the password?](#how-to-reset-the-password)
 - [When I reset my password, do I also change the password for the whole team?](#when-i-reset-my-password-do-i-also-change-the-password-for-the-whole-team)
 - [How to join an existing team?](#how-to-join-an-existing-team)
@@ -15,12 +15,12 @@
 - [Where do I find the videos for the Tutorials?](#where-do-i-find-the-videos-for-the-tutorials)
 - [How can I access my AWS account?](#how-can-i-access-my-aws-account)
 - [The Sagemaker studio error states: Failed to change instance; what should I do?](#the-sagemaker-studio-error-states-failed-to-change-instance-what-should-i-do)
-- [When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"](#when-opening-a-tutorial-the-sagemaker-studio-seems-to-be-stuck-in-the-state-"starting-notebook-kernel")
+- [When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"](#when-opening-a-tutorial-the-sagemaker-studio-seems-to-be-stuck-in-the-state-starting-notebook-kernel)
 - [AWS CLI doesn't work in sagemaker studio notebooks](#aws-cli-doesnt-work-in-sagemaker-studio-notebooks)
 - [Is this an image classification task or is there more to extract?](#is-this-an-image-classification-task-or-is-there-more-to-extract)
 - [Is every bounding box a separate worm?](#is-every-bounding-box-a-separate-worm)
 - [What is the maximum score a team can receive?](#what-is-the-maximum-score-a-team-can-receive)
-- [How long does it take to get the AWS links / registration confirmation after the team registration has been done? hours, days?](#how-long-does-it-take-to-get-the-aws-links-registration-confirmation-after-the-team-registration-has-been-done-hours-days)
+- [How long does it take to get the AWS links or registration confirmation after the team registration has been done?](#how-long-does-it-take-to-get-the-aws-links-or-registration-confirmation-after-the-team-registration-has-been-done)
 - [Can we have the kickoff session PowerPoint?](#can-we-have-the-kickoff-session-powerpoint)
 - [When do we receive access to the dataset? ](#when-do-we-receive-access-to-the-dataset)
 - [What is the weekly budget for AWS? ](#what-is-the-weekly-budget-for-aws)
@@ -140,13 +140,13 @@ Error message:
 
 - The maximum possible score is 300. The maximum score for the detection accuracy for any threshold is 100. Since we sum up the detection accuracy for three different thresholds, the maximum score comes to 300. Realistically, we expect this is not reachable since we are dealing with expert-labeled data, which usually isn’t perfect.
 
-## How long does it take to get the AWS links / registration confirmation after the team registration has been done? hours, days? 
+## How long does it take to get the AWS links or registration confirmation after the team registration has been done? 
 
 - The registration confirmation is immediate. The AWS accounts will be open, starting the week of June 13th. 
 
 ## Can we have the kickoff session PowerPoint?
 
-- The PowerPoint presentation is available on Teams. You can find it [here](https://capgemini.sharepoint.com/:p:/r/sites/GlobalDataScienceChallenge806/Shared Documents/General/GDSC 2022 - Code For Cure/GDSC5_KickOff_June9_final.pptx?d=w4caf5b5093a94307bdb003e34https://capgemini.sharepoint.com/:p:/r/sites/GlobalDataScienceChallenge806/Shared%20Documents/General/GDSC%202022%20-%20Code%20For%20Cure/GDSC5_KickOff_June9_final.pptx?d=w4caf5b5093a94307bdb003e34738e738&csf=1&web=1&e=aZgfcL738e738&csf=1&web=1&e=aZgfcL).
+- The PowerPoint presentation is available on Teams. You can find it on the [resources page](https://gdsc.ce.capgemini.com/app/portal/resources).
 
 ## When do we receive access to the dataset? 
 
@@ -166,7 +166,7 @@ Error message:
 
 ## Can you highlight the evaluation process or the selection process of the competition?
 
-- Your submissions are scored using the formula explained in [slides 12-14](https://capgemini.sharepoint.com/:p:/r/sites/GlobalDataScienceChallenge806/Shared Documents/General/GDSC 2022 - Code For Cure/GDSC5_KickOff_June9_final.pptx?d=w4caf5b5093a94307bdb003e34https://capgemini.sharepoint.com/:p:/r/sites/GlobalDataScienceChallenge806/Shared%20Documents/General/GDSC%202022%20-%20Code%20For%20Cure/GDSC5_KickOff_June9_final.pptx?d=w4caf5b5093a94307bdb003e34738e738&csf=1&web=1&e=aZgfcL738e738&csf=1&web=1&e=aZgfcL) in the kick-off deck.
+- Your submissions are scored using the formula explained in [slides 12-14](https://capgemini.sharepoint.com/:p:/r/sites/GlobalDataScienceChallenge806/Shared%20Documents/General/GDSC%202022%20-%20Code%20For%20Cure/GDSC5_KickOff_June9_final.pptx?d=w4caf5b5093a94307bdb003e34738e738&csf=1&web=1) in the kick-off deck.
 
 ## How many times can we re-submit our improved solution?
 
