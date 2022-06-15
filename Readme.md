@@ -206,4 +206,4 @@ Error message:
 
 ## How to join the GDSC MS Teams?
 
-- You can contact us via email and we will add you to the channel.
+- You can contact us via [email](mailto:nien-chun.yin@capgemini.com) and we will add you to the channel.
