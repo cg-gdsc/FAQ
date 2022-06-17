@@ -37,6 +37,7 @@
 - [Is the unlabeled data available or only is it on the expert side?](#is-the-unlabeled-data-available-or-only-is-it-on-the-expert-side)
 - [If some of us do not find a team, will there be help to join other teams?](#if-some-of-us-do-not-find-a-team-will-there-be-help-to-join-other-teams)
 - [How to join the GDSC MS Teams?](#how-to-join-the-gdsc-ms-teams)
+- [What can you do if you were not able to confirm your account?](#what-can-you-do-if-you-were-not-able-to-confirm-your-account)
 
 ## How many people can join one team?
 
@@ -207,3 +208,7 @@ Error message:
 ## How to join the GDSC MS Teams?
 
 - You can contact us via [email](mailto:nien-chun.yin@capgemini.com) and we will add you to the channel.
+
+## What can you do if you were not able to confirm your account?
+
+- Please check this [link](https://gdsc.ce.capgemini.com/app/resend)
