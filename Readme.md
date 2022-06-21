@@ -39,6 +39,9 @@
 - [How to join the GDSC MS Teams?](#how-to-join-the-gdsc-ms-teams)
 - [What can you do if you were not able to confirm your account?](#what-can-you-do-if-you-were-not-able-to-confirm-your-account)
 - [How to check AWS service expenses?](#how-to-check-aws-service-expenses)
+- [What is the best input resolution?](#what-is-the-best-input-resolution)
+- [I tried to load a checkpoint and continue training from there, the accuracy went to 100 percent and loss to nan.](#i-tried-to-load-a-checkpoint-and-continue-training-from-there-the-accuracy-went-to-100-percent-and-loss-to-nan)
+- [I tried to run the model with a higher resolution and got an out of memory error.](#i-tried-to-run-the-model-with-a-higher-resolution-and-got-an-out-of-memory-error)
 
 ## How many people can join one team?
 
@@ -217,3 +220,15 @@ Error message:
 ## How to check AWS service expenses?
 
 - On AWS Console, go to 'Billing' and click "Cost Explorer" on the left. You can see your cost summary after choosing "Launch Cost Explorer".
+
+## what is the best input resolution?
+
+- I don't know. The default resolutions (1333x800) is likely too low.
+	
+## I tried to load a checkpoint and continue training from there. The accuracy went to 100 percent and loss to nan.
+
+- Something went seriously wrong. Try to initialize from the weights instead of using the checkpoint functionality. Also post in the Data and AI Questions channel. Maybe some other team was able to solve this.
+	
+## I tried to run the model with a higher resolution and got an out of memory error.
+
+- The g4dn instances have 16GB GPU-RAM. That should be sufficient for at least 2kx2k. Check that you reduced the number of workers in the config and the batch size. Also post in the Data and AI Questions channel. Maybe some other team can help you out.
