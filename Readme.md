@@ -38,6 +38,7 @@
 - [If some of us do not find a team, will there be help to join other teams?](#if-some-of-us-do-not-find-a-team-will-there-be-help-to-join-other-teams)
 - [How to join the GDSC MS Teams?](#how-to-join-the-gdsc-ms-teams)
 - [What can you do if you were not able to confirm your account?](#what-can-you-do-if-you-were-not-able-to-confirm-your-account)
+- [How to check AWS service expenses?](#how-to-check-aws-service-expenses)
 
 ## How many people can join one team?
 
@@ -212,3 +213,7 @@ Error message:
 ## What can you do if you were not able to confirm your account?
 
 - Please check this [link](https://gdsc.ce.capgemini.com/app/resend)
+
+## How to check AWS service expenses?
+
+- On AWS Console, go to 'Billing' and click "Cost Explorer" on the left. You can see your cost summary after choosing "Launch Cost Explorer".
