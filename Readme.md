@@ -17,6 +17,8 @@
 - [The Sagemaker studio error states: Failed to change instance; what should I do?](#the-sagemaker-studio-error-states-failed-to-change-instance-what-should-i-do)
 - [When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"](#when-opening-a-tutorial-the-sagemaker-studio-seems-to-be-stuck-in-the-state-starting-notebook-kernel)
 - [AWS CLI doesn't work in sagemaker studio notebooks](#aws-cli-doesnt-work-in-sagemaker-studio-notebooks)
+- [How to change the jupyter lab version used in the Sagemaker Studio Domain?](#how-to-change-the-jupyter-lab-version-used-in-the-sagemaker-studio-domain)
+- [An error appeared when running on-jupyter-server-start.sh. "jupyter: command not found"](#an-error-appeared-when-running-on-jupyter-server-startsh-jupyter-command-not-found)
 - [Is this an image classification task or is there more to extract?](#is-this-an-image-classification-task-or-is-there-more-to-extract)
 - [Is every bounding box a separate worm?](#is-every-bounding-box-a-separate-worm)
 - [What is the maximum score a team can receive?](#what-is-the-maximum-score-a-team-can-receive)
@@ -132,6 +134,25 @@ Error message:
 
 - Reason: The image that we are using for the challenge doesn't support the AWS command line interface (cli) due to incompatible licenses in required packages.
 - Workaround: Open an <b> system </b> terminal via the launcher (see Tutorial 4 for reference). You can use the aws cli here. The filesystem is shared between all terminals / instances.
+
+## How to change the jupyter lab version used in the Sagemaker Studio Domain?
+
+- During the challenge we will only be using Jupyter Lab 1.0. 
+- If you have chosen another version, you can switch the version in the AWS management console.
+- Follow these steps:
+    - Open the Sagemaker Studio View from the control panel
+    - Click on the gear next to the word 'Domain' in the right pane
+    ![](./screenshots/sagemakerdomain_gear.jpg)
+    - You are now in Edit Domain Settings. You can navigate to Step 2: Studio Settings. Here you should choose version 1: 
+    ![](./screenshots/studio_settings.jpg).
+    - Please select the correct version (Jupyter Lab 1.0) from the drop down. 
+    - Now you can finish the setup and click on next and then submit. The changes may take a few moments to apply.
+
+## An error appeared when running on-jupyter-server-start.sh. "jupyter: command not found"
+
+- This can error can have 2 origins:
+1. You  didn't run the script in a system terminal but in an image terminal. If that's the case, please choose a <b>system</b> terminal from the launcher as described in Tutorial 1.
+2. You have chosen Jupyter Lab 3.0 (Preview) from the available versions when creating your Sagemaker Studio. Please refer to [this](#how-to-change-the-jupyter-lab-version-used-in-the-sagemaker-studio-domain) Question for how to change back to Version 1.0.
 
 ## Is this an image classification task or is there more to extract?
 
