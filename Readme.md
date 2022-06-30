@@ -44,6 +44,16 @@
 - [What is the best input resolution?](#what-is-the-best-input-resolution)
 - [I tried to load a checkpoint and continue training from there, the accuracy went to 100 percent and loss to nan.](#i-tried-to-load-a-checkpoint-and-continue-training-from-there-the-accuracy-went-to-100-percent-and-loss-to-nan)
 - [I tried to run the model with a higher resolution and got an out of memory error.](#i-tried-to-run-the-model-with-a-higher-resolution-and-got-an-out-of-memory-error)
+- [I am struggling to use data from different input channels, see also the teams post.](#i-am-struggling-to-use-data-from-different-input-channels-see-also-the-teams-post)
+- [I tried many different models but am not seeing much progress, should I move to a different library?](#i-tried-many-different-models-but-am-not-seeing-much-progress-should-i-move-to-a-different-library)
+- [How do you best collaborate with Sagemaker?](#how-do-you-best-collaborate-with-sagemaker)
+- [When will the new quota be updated for this week?](#when-will-the-new-quota-be-updated-for-this-week)
+- [A masking is basically creating a contour of the worm regions in binary images, are masking techniques a good approach for detecting worms?](#a-masking-is-basically-creating-a-contour-of-the-worm-regions-in-binary-images-are-masking-techniques-a-good-approach-for-detecting-worms)
+- [What is meant by aggregating information from worm sections within the similar areas of interest of different stainings that look alike?](#what-is-meant-by-aggregating-information-from-worm-sections-within-the-similar-areas-of-interest-of-different-stainings-that-look-alike)
+- [Some labelings are not correctly done, are there issues with labeling?](#some-labelings-are-not-correctly-done-are-there-issues-with-labeling)
+- [The smaller worms are sometimes not recognized by the model. Is there a way to improve that?](#the-smaller-worms-are-sometimes-not-recognized-by-the-model-is-there-a-way-to-improve-that)
+- [Any info regarding AWS certificates?](#any-info-regarding-aws-certificates)
+- [Will some optional features such as adding new team member be implemented?](#will-some-optional-features-such-as-adding-new-team-member-be-implemented)
 
 ## How many people can join one team?
 
@@ -253,3 +263,44 @@ Error message:
 ## I tried to run the model with a higher resolution and got an out of memory error.
 
 - The g4dn instances have 16GB GPU-RAM. That should be sufficient for at least 2kx2k. Check that you reduced the number of workers in the config and the batch size. Also post in the Data and AI Questions channel. Maybe some other team can help you out.
+
+## I am struggling to use data from different input channels, see also the teams post.
+
+- This seems like a pathing issue. Verify that the data actually gets downloaded and that you're looking in the right place
+ 
+## I tried many different models but am not seeing much progress. Should I move to a different library
+
+- Only switch if you are confident that the other tool offers some real improvement. I'd rather focus on data quality. See also https://www.deeplearning.ai/wp-content/uploads/2021/06/MLOps-From-Model-centric-to-Data-centric-AI.pdf
+ 
+## How do you best collaborate with Sagemaker
+
+- Use some planning tool like trello or the teams planer to structure tasks. As long as you are in the ideation phase, use a different notebook for each team member. If you need branches, do one check out per team member. Then everybody works on their own director
+
+## When will the new quota be updated for this week?
+
+- Every Tuesday we will release the new quota in aws, time of day varies. 
+
+## A masking is basically creating a contour of the worm regions in binary images, are masking techniques a good approach for detecting worms?
+
+- Maybe. Try it out. 
+
+## What is meant by aggregating information from worm sections (within the similar areas of interest) of different stainings that look alike? 
+
+- Images from different stainings show the same worm. So if you see a worm section at the very top of the image in one staining, there is a high chance that there will also be one at the very top of another staining. 
+
+## Some labelings are not correctly done, are there issues with labeling?
+
+- Human labels are always error prone. If you find something systematic I encourage you to discuss it in teams. 
+
+## The smaller worms are sometimes not recognized by the model. Is there a way to improve that? 
+
+- Increase the resolution. With the tutorial approach, a small worm will be reduced to a few pixels and not distinguishable from the background. 
+
+## Any info regarding AWS certificates? 
+
+- ML: see [post](https://teams.microsoft.com/l/message/19:97d8b47c7c8444aa9a21fdeaebd6a79b@thread.skype/1656061646276?tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61&groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&parentMessageId=1656061646276&teamName=Global%20Data%20Science%20Challenge%20-%20Public&channelName=Announcements&createdTime=1656061646276) ; Cloud Practitioner: we will keep you updated 
+
+
+## Will some optional features such as adding new team member be implemented? 
+
+- It's on the todo list, but not at the top. The more people ask for this feature, the sooner we'll get to it 
