@@ -1,8 +1,8 @@
 # Frequently Asked Questions
 
-- [Where can I find all the rules for the participation?](Where-can-I-find-all-the-rules-for-the-participation)
-- [Who can participate?](Who-can-participate)
-- [Can one register as an individual?](Can-one-register-as-an-individual)
+- [Where can I find all the rules for the participation?](#where-can-I-find-all-the-rules-for-the-participation)
+- [Who can participate?](#who-can-participate)
+- [Can one register as an individual?](#can-one-register-as-an-individual)
 - [How to create a team?](#how-to-create-a-team)
 - [How many people can join one team?](#how-many-people-can-join-one-team)
 - [Is it mandatory to have a team size of four people?](#is-it-mandatory-to-have-a-team-size-of-four-people)
@@ -12,10 +12,10 @@
 - [How to join an existing team?](#how-to-join-an-existing-team)
 - [How to find new team members?](#how-to-find-new-team-members)
 - [Can working students also join the challenge?](#can-working-students-also-join-the-challenge)
-- [Whom should we contact if we have login issues?](Whom-should-we-contact-if-we-have-login-issues?)
+- [Whom should we contact if we have login issues?](#whom-should-we-contact-if-we-have-login-issues?)
 - [If some of us do not find a team, will there be help to join other teams?](#if-some-of-us-do-not-find-a-team-will-there-be-help-to-join-other-teams)
 - [How to join the GDSC MS Teams?](#how-to-join-the-gdsc-ms-teams)
-- [What can you do if you were not able to confirm your account?](What-can-you-do-if-you-were-not-able-to-confirm-your-account?)
+- [What can you do if you were not able to confirm your account?](#what-can-you-do-if-you-were-not-able-to-confirm-your-account?)
 
 
 ## Where can I find all the rules for the participation?
