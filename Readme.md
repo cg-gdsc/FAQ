@@ -12,10 +12,10 @@
 - [How to join an existing team?](#how-to-join-an-existing-team)
 - [How to find new team members?](#how-to-find-new-team-members)
 - [Can working students also join the challenge?](#can-working-students-also-join-the-challenge)
-- [Whom should we contact if we have login issues?](#whom-should-we-contact-if-we-have-login-issues?)
+- [Whom should we contact if we have login issues?](#whom-should-we-contact-if-we-have-login-issues)
 - [If some of us do not find a team, will there be help to join other teams?](#if-some-of-us-do-not-find-a-team-will-there-be-help-to-join-other-teams)
 - [How to join the GDSC MS Teams?](#how-to-join-the-gdsc-ms-teams)
-- [What can you do if you were not able to confirm your account?](#what-can-you-do-if-you-were-not-able-to-confirm-your-account?)
+- [What can you do if you were not able to confirm your account?](#what-can-you-do-if-you-were-not-able-to-confirm-your-account)
 
 
 ## Where can I find all the rules for the participation?
@@ -91,7 +91,7 @@
 
 ## How to join the GDSC MS Teams?
 
-- You can contact us via [email](mailto:nien-chun.yin@capgemini.com) and we will add you to the channel.
+- You can contact us via [email](mailto:steffen.klempau@capgemini.com,daniel.kuehlwein@capgemini.com) and we will add you to the channel.
 
 ## What can you do if you were not able to confirm your account?
 
