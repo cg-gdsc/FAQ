@@ -3,6 +3,7 @@
 - [Where can I find all the rules for the participation?](#where-can-I-find-all-the-rules-for-the-participation)
 - [Who can participate?](#who-can-participate)
 - [Can one register as an individual?](#can-one-register-as-an-individual)
+- [Facing error while registering individually?](#facing-error-while-registering-individually)
 - [How to create a team?](#how-to-create-a-team)
 - [How many people can join one team?](#how-many-people-can-join-one-team)
 - [Is it mandatory to have a team size of four people?](#is-it-mandatory-to-have-a-team-size-of-four-people)
@@ -39,12 +40,20 @@
 
 - Participants joining in a team, must register individually on the website and then signup their team. One can use the [MS Teams Channel](https://teams.microsoft.com/l/channel/19%3aa32e03d38fc940ee9d4b20a7cc9e030d%40thread.skype/Looking%2520for%2520Team?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61) created specifically to find teammates and co-ordinate.
 
+## Facing issues while registering individually
+
+- Error : "Signup failed: Pre-SignUp failed with error Error writing to database" - Please connect with [Kanwal](mailto:kanwalmeetsingh-amarjeetsingh.kochar@capgemini.com) to rectify this issue
+-  Error : "Invalid link provided, please request a link again." error if you open the verification link from your Capgemini Laptop. Please ignore this message as your registration will be verified anyway. 
+
 ## How to create a team?
 
 - Go to https://gdsc.ce.capgemini.com/
 - Press the Login / Sign Up button in the top right
 - Press Sign Up
 - Fill out the Sign-Up form for registering individually. Once you sign up you can form your team using the Portal page. You can either provide a new name and create a team or join an existing team using the Team ID.
+- The website will be open to allow Team registrations between 6th - 30th June
+- Individual Signups/registrations will be open from 18th May onwards
+
 
 ## How many people can join one team?
 
