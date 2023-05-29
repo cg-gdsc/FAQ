@@ -40,7 +40,7 @@
 
 - Participants joining in a team, must register individually on the website and then signup their team. One can use the [MS Teams Channel](https://teams.microsoft.com/l/channel/19%3aa32e03d38fc940ee9d4b20a7cc9e030d%40thread.skype/Looking%2520for%2520Team?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61) created specifically to find teammates and co-ordinate.
 
-## Facing issues while registering individually
+## Facing error while registering individually
 
 - Error : "Signup failed: Pre-SignUp failed with error Error writing to database" - Please connect with [Kanwal](mailto:kanwalmeetsingh-amarjeetsingh.kochar@capgemini.com) to rectify this issue
 -  Error : "Invalid link provided, please request a link again." error if you open the verification link from your Capgemini Laptop. Please ignore this message as your registration will be verified anyway. 
