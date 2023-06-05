@@ -123,11 +123,11 @@
 
 ## Can we have the kickoff session PowerPoint?
 
-- The PowerPoint presentation is available on Teams. You can find it on the [resources page](https://gdsc.ce.capgemini.com/app/portal/resources).
+- The PowerPoint presentation will be available on Teams. You would also find it on the [resources page](https://gdsc.ce.capgemini.com/app/portal/resources).
 
 ## When do we receive access to the dataset? 
 
-- You will only be able to access to data from your AWS account. You are not permitted to download it to ensure we’re reducing our carbon footprint. The access will be shown in the AWS tutorials provided.
+- Access to the dataset will be provided after the kick-off on June 6th.
 
 ## How many times can we re-submit our improved solution?
 
