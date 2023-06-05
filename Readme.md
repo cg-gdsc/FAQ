@@ -1,5 +1,6 @@
 # Frequently Asked Questions
 
+**Registration related FAQs**
 - [Where can I find all the rules for the participation?](#where-can-I-find-all-the-rules-for-the-participation)
 - [Who can participate?](#who-can-participate)
 - [Can one register as an individual?](#can-one-register-as-an-individual)
@@ -18,6 +19,12 @@
 - [How to join the GDSC MS Teams?](#how-to-join-the-gdsc-ms-teams)
 - [What can you do if you were not able to confirm your account?](#what-can-you-do-if-you-were-not-able-to-confirm-your-account)
 
+**Competition related FAQs**
+- [Why is it "up to value" of certain amount of Euro?](#why-is-it-up-to-value-of-certain-amount-of-euro)
+- [Where do I find the videos for the Tutorials?](#where-do-i-find-the-videos-for-the-tutorials)
+- [Can we have the kickoff session PowerPoint?](#can-we-have-the-kickoff-session-powerpoint)
+- [When do we receive access to the dataset? ](#when-do-we-receive-access-to-the-dataset)
+- [How many times can we re-submit our improved solution?](#how-many-times-can-we-re-submit-our-improved-solution)
 
 ## Where can I find all the rules for the participation?
 
@@ -105,4 +112,24 @@
 ## What can you do if you were not able to confirm your account?
 
 - Please check this [link](https://gdsc.ce.capgemini.com/app/resend)
+
+## Why is it "up to value" of certain amount of Euro?
+
+- Based on the conversion rate/exchange rate, it might not be the full cash prize in Euro.
+
+## Where do I find the videos for the Tutorials?
+
+- You can find the videos on our Capgemini Stream. The link will be shared after the kick-off call.
+
+## Can we have the kickoff session PowerPoint?
+
+- The PowerPoint presentation is available on Teams. You can find it on the [resources page](https://gdsc.ce.capgemini.com/app/portal/resources).
+
+## When do we receive access to the dataset? 
+
+- You will only be able to access to data from your AWS account. You are not permitted to download it to ensure we’re reducing our carbon footprint. The access will be shown in the AWS tutorials provided.
+
+## How many times can we re-submit our improved solution?
+
+- You can re-submit your improved solution as often as you want. However, if we detect a team is spamming the submission page, we will block the team from doing that. For reference, in the GDSC 2020, there was one team with over 1,000 submissions.
 
