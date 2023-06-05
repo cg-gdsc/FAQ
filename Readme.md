@@ -26,6 +26,11 @@
 - [When do we receive access to the dataset? ](#when-do-we-receive-access-to-the-dataset)
 - [How many times can we re-submit our improved solution?](#how-many-times-can-we-re-submit-our-improved-solution)
 
+**AWS Account related FAQs**
+- [How long does it take to get the AWS links or registration confirmation after the team registration has been done?](#how-long-does-it-take-to-get-the-aws-links-or-registration-confirmation-after-the-team-registration-has-been-done)
+- [How can I access my AWS account?](#how-can-i-access-my-aws-account)
+
+
 ## Where can I find all the rules for the participation?
 
 - Please refer to the Website T&C and Participation T&C mentioned on the https://gdsc.ce.capgemini.com/. 
@@ -132,4 +137,18 @@
 ## How many times can we re-submit our improved solution?
 
 - You can re-submit your improved solution as often as you want. However, if we detect a team is spamming the submission page, we will block the team from doing that. For reference, in the GDSC 2020, there was one team with over 1,000 submissions.
+
+## How long does it take to get the AWS links or registration confirmation after the team registration has been done? 
+
+- The registration confirmation is immediate. The AWS accounts will be open after the kick-off on June 6th.
+
+## How can I access my AWS account? 
+
+- After your teams registration, you should have received an confirmation e-mail.
+- After your confirmation, you will receive an e-mail from AWS (no-reply@login.awsapps.com) with the subject: 'Invitation to join AWS Single Sign-On'. This e-mail looks like this:
+![](./screenshots/AWS_invite_mail.png)
+- Click on the button 'Accept Invitation' and enter your username from the invitation e-mail. You will be prompted to set a new password. 
+- You can now login using the link in the invitation e-mail under 'User portal URL'. The portal looks like this:
+![](./screenshots/aws_apps_portal.png)
+- You will see your AWS Account after you logged in. Now you can click on 'Management Console' to access it.  
 
