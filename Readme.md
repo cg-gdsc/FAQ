@@ -10,6 +10,7 @@
 - [Is it mandatory to have a team size of four people?](#is-it-mandatory-to-have-a-team-size-of-four-people)
 - [Can one person be in different teams?](#can-one-person-be-in-different-teams)
 - [Can I change my team name later?](#can-i-change-my-team-name-later)
+- [Can I change my team later?](#can-i-change-my-team-later)
 - [How to reset the password?](#how-to-reset-the-password)
 - [How to join an existing team?](#how-to-join-an-existing-team)
 - [How to find new team members?](#how-to-find-new-team-members)
@@ -77,6 +78,10 @@
 ## Can I change my team name later?
 
 - No. The name given while creating the team would be considered as the final one.
+
+## Can I change my team later?
+
+- Yes, you can change your team later. But a participant can only change their team once during the course of the competition.
 
 ## How to reset the password?
 - Click the "Password Reset" button at the [signup page](https://gdsc.ce.capgemini.com/password_reset/)
