@@ -27,6 +27,21 @@
 - [When do we receive access to the dataset? ](#when-do-we-receive-access-to-the-dataset)
 - [How many times can we re-submit our improved solution?](#how-many-times-can-we-re-submit-our-improved-solution)
 
+**AWS Account related FAQs**
+- [How long does it take to get the AWS links or registration confirmation after the team registration has been done?](#how-long-does-it-take-to-get-the-aws-links-or-registration-confirmation-after-the-team-registration-has-been-done)
+- [How can I access my AWS account?](#how-can-i-access-my-aws-account)
+- [The Sagemaker studio error states: Failed to change instance; what should I do?](#the-sagemaker-studio-error-states-failed-to-change-instance-what-should-i-do)
+- [When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"](#when-opening-a-tutorial-the-sagemaker-studio-seems-to-be-stuck-in-the-state-starting-notebook-kernel)
+- [AWS CLI doesn't work in sagemaker studio notebooks](#aws-cli-doesnt-work-in-sagemaker-studio-notebooks)
+- [How to change the jupyter lab version used in the Sagemaker Studio Domain?](#how-to-change-the-jupyter-lab-version-used-in-the-sagemaker-studio-domain)
+- [An error appeared when running on-jupyter-server-start.sh. "jupyter: command not found"](#an-error-appeared-when-running-on-jupyter-server-startsh-jupyter-command-not-found)
+- [What is the weekly budget for AWS? ](#what-is-the-weekly-budget-for-aws)
+- [Can we use any component of AWS once we get access to the environment?](#can-we-use-any-component-of-aws-once-we-get-access-to-the-environment)
+- [The AWS will be provided with GPU instances for training, correct?](#the-aws-will-be-provided-with-gpu-instances-for-training-correct)
+- [How to check AWS service expenses?](#how-to-check-aws-service-expenses)
+- [How do you best collaborate with Sagemaker?](#how-do-you-best-collaborate-with-sagemaker)
+
+
 ## Where can I find all the rules for the participation?
 
 - Please refer to the Website T&C and Participation T&C mentioned on the https://gdsc.ce.capgemini.com/. 
@@ -137,4 +152,78 @@
 ## How many times can we re-submit our improved solution?
 
 - You can re-submit your improved solution as often as you want. However, if we detect a team is spamming the submission page, we will block the team from doing that. For reference, in the GDSC 2020, there was one team with over 1,000 submissions.
+
+## How long does it take to get the AWS links or registration confirmation after the team registration has been done? 
+
+- The registration confirmation is immediate. The AWS accounts will be open after the kick-off on June 6th.
+
+## How can I access my AWS account? 
+
+- After your teams registration, you should have received an confirmation e-mail.
+- After your confirmation, you will receive an e-mail from AWS (no-reply@login.awsapps.com) with the subject: 'Invitation to join AWS Single Sign-On'. This e-mail looks like this:
+![](./screenshots/AWS_invite_mail.png)
+- Click on the button 'Accept Invitation' and enter your username from the invitation e-mail. You will be prompted to set a new password. 
+- You can now login using the link in the invitation e-mail under 'User portal URL'. The portal looks like this:
+![](./screenshots/aws_apps_portal.png)
+- You will see your AWS Account after you logged in. Now you can click on 'Management Console' to access it.  
+
+## The Sagemaker studio error states: Failed to change instance; what should I do?
+
+Error message:
+
+![](./screenshots/failed_to_change_instace.png)
+
+- What a few minutes. The instance is currently starting or stopping. After around 5-10 min, you should be able to either use it or start it again. 
+- Please check the resources tab in the left pane of Sagemaker Studio for more information of your current instances.
+- If you see the instance there, please make sure to select the kernel image first and afterwards the instance, if necessary.  
+ 
+## When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"
+
+- The image that we use is very big, it therefore can take some time to load. If it wasn't loaded after 10 minute, try to refresh your browser. 
+- If it still loads, try to shut down all running apps / instances.
+
+## AWS CLI doesn't work in sagemaker studio notebooks
+
+- Reason: The image that we are using for the challenge doesn't support the AWS command line interface (cli) due to incompatible licenses in required packages.
+- Workaround: Open an <b> system </b> terminal via the launcher. You can use the aws cli here. The filesystem is shared between all terminals / instances.
+
+## How to change the jupyter lab version used in the Sagemaker Studio Domain?
+
+- During the challenge we will only be using Jupyter Lab 1.0. 
+- If you have chosen another version, you can switch the version in the AWS management console.
+- Follow these steps:
+    - Open the Sagemaker Studio View from the control panel
+    - Click on the gear next to the word 'Domain' in the right pane
+    ![](./screenshots/sagemakerdomain_gear.jpg)
+    - You are now in Edit Domain Settings. You can navigate to Step 2: Studio Settings. Here you should choose version 1: 
+    ![](./screenshots/studio_settings.jpg).
+    - Please select the correct version (Jupyter Lab 1.0) from the drop down. 
+    - Now you can finish the setup and click on next and then submit. The changes may take a few moments to apply.
+
+## An error appeared when running on-jupyter-server-start.sh. "jupyter: command not found"
+
+- This can error can have 2 origins:
+1. You  didn't run the script in a system terminal but in an image terminal. If that's the case, please choose a <b>system</b> terminal from the launcher as described in Tutorial 1.
+2. You have chosen Jupyter Lab 3.0 (Preview) from the available versions when creating your Sagemaker Studio. Please refer to [this](#how-to-change-the-jupyter-lab-version-used-in-the-sagemaker-studio-domain) Question for how to change back to Version 1.0.
+
+## What is the weekly budget for AWS? 
+
+- The budget will by dynamic, depending on the number and activity of the teams. We start with $50 US dollars.
+
+## Can we use any component of AWS once we get access to the environment? 
+
+- Not quite. You have access to everything you’ll need to build a successful solution. Services that are not required are disabled.
+
+## The AWS will be provided with GPU instances for training, correct? 
+
+- Yes, each team will have one Graphics Processing Unit (GPU) instance at their disposal.
+
+## How to check AWS service expenses?
+
+- On AWS Console, go to 'Billing' and click "Cost Explorer" on the left. You can see your cost summary after choosing "Launch Cost Explorer".
+
+## How do you best collaborate with Sagemaker
+
+- Use some planning tool like trello or the teams planer to structure tasks. As long as you are in the ideation phase, use a different notebook for each team member. If you need branches, do one check out per team member. Then everybody works on their own directory.
+
 
