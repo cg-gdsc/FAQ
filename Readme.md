@@ -22,6 +22,7 @@
 
 **Competition related FAQs**
 - [Why is it "up to value" of certain amount of Euro?](#why-is-it-up-to-value-of-certain-amount-of-euro)
+- [Where do I find the notebooks from the Tutorials?](#where-do-i-find-the-notebooks-from-the-tutorials)
 - [Where do I find the videos for the Tutorials?](#where-do-i-find-the-videos-for-the-tutorials)
 - [Can we have the kickoff session PowerPoint?](#can-we-have-the-kickoff-session-powerpoint)
 - [When do we receive access to the dataset? ](#when-do-we-receive-access-to-the-dataset)
@@ -32,7 +33,6 @@
 - [The Sagemaker studio error states: Failed to change instance; what should I do?](#the-sagemaker-studio-error-states-failed-to-change-instance-what-should-i-do)
 - [When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"](#when-opening-a-tutorial-the-sagemaker-studio-seems-to-be-stuck-in-the-state-starting-notebook-kernel)
 - [AWS CLI doesn't work in sagemaker studio notebooks](#aws-cli-doesnt-work-in-sagemaker-studio-notebooks)
-- [An error appeared when running on-jupyter-server-start.sh. "jupyter: command not found"](#an-error-appeared-when-running-on-jupyter-server-startsh-jupyter-command-not-found)
 - [What is the weekly budget for AWS? ](#what-is-the-weekly-budget-for-aws)
 - [Can we use any component of AWS once we get access to the environment?](#can-we-use-any-component-of-aws-once-we-get-access-to-the-environment)
 - [The AWS will be provided with GPU instances for training, correct?](#the-aws-will-be-provided-with-gpu-instances-for-training-correct)
@@ -42,7 +42,7 @@
 
 ## Where can I find all the rules for the participation?
 
-- Please refer to the Website T&C and Participation T&C mentioned on the https://gdsc.ce.capgemini.com/. 
+- Please refer to the [Website T&C](https://gdsc.ce.capgemini.com/app/termsOfUse/) and [Participation T&C](https://gdsc.ce.capgemini.com/app/dataProtection/) mentioned on the https://gdsc.ce.capgemini.com/. 
 - All the rules are mentioned here. All the participants are requested to read them fully before signing up.
 
 ## Who can participate?
@@ -71,7 +71,9 @@
 - Go to https://gdsc.ce.capgemini.com/
 - Press the Login / Sign Up button in the top right
 - Press Sign Up
-- Fill out the Sign-Up form for registering individually. Once you sign up you can form your team using the Portal page. You can either provide a new name and create a team or join an existing team using the Team ID.
+- Fill out the Sign-Up form for registering individually. 
+- Don't worry if the following inofrmation pops up: *Invalid link provided, please request a link again.*
+- Once you sign up you can form your team using the Portal page. You can either provide a new name and create a team or join an existing team using the Team ID.
 - The website will be open to allow Team registrations between 6th - 30th June
 - Individual Signups/registrations will be open from 18th May onwards
 
@@ -97,9 +99,10 @@
 - Yes, you can change your team later. But a participant can only change their team once during the course of the competition.
 
 ## How to reset the password?
-- Click the "Password Reset" button at the [signup page](https://gdsc.ce.capgemini.com/password_reset/)
+- Click the "Forgot Password" button at the [signup page](https://gdsc.ce.capgemini.com/app/login/)
 - Forgot Password page would be rendered. 
-- You will receive the link to reset the password. 
+- Paste your e-mail and click *Reset password*
+- Fill the form and pass the verification code. 
 - Once the password is changed, you can log in using the new password.
 
 ## How to join an existing team?
@@ -116,12 +119,12 @@
 
 ## Whom should we contact if we have login issues? 
 
-- Please write your login related concerns to the [GDSC Teams channel](https://capgemininar-my.sharepoint.com/personal/sharmelle_brooks_capgemini_com/Documents/A.%09https:/teams.microsoft.com/l/team/19%3a4017a2e9af4942e7aa157d6ec9d751b4%40thread.skype/conversations?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61). We appreciate your patience if you haven't received the confirmation email yet.
+- Please write your login related concerns to the [GDSC Teams channel](https://teams.microsoft.com/l/channel/19%3a4017a2e9af4942e7aa157d6ec9d751b4%40thread.skype/General?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61). We appreciate your patience if you haven't received the confirmation email yet.
 
 
 ## If some of us do not find a team, will there be help to join other teams?
 
-- You can find a team to join on the [GDSC Teams channel](https://capgemininar-my.sharepoint.com/personal/sharmelle_brooks_capgemini_com/Documents/A.%09https:/teams.microsoft.com/l/team/19%3a4017a2e9af4942e7aa157d6ec9d751b4%40thread.skype/conversations?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61).
+- You can find a team to join on the [GDSC Teams channel](https://teams.microsoft.com/l/channel/19%3aa32e03d38fc940ee9d4b20a7cc9e030d%40thread.skype/Looking%2520for%2520Team?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61).
 
 ## How to join the GDSC MS Teams?
 
@@ -135,9 +138,13 @@
 
 - Based on the conversion rate/exchange rate, it might not be the full cash prize in Euro.
 
+## Where do I find the notebooks from the Tutorials?
+
+- You can find the notebooks in the [GitHub repo](https://github.com/cg-gdsc/GDSC-6)
+
 ## Where do I find the videos for the Tutorials?
 
-- You can find the videos on our Capgemini Stream. The link will be shared after the kick-off call.
+- You can find the videos on the [resources page](https://gdsc.ce.capgemini.com/app/portal/resources/) which will be visible after logging in.
 
 ## Can we have the kickoff session PowerPoint?
 
@@ -153,7 +160,7 @@
 
 ## How long does it take to get the AWS links or registration confirmation after the team registration has been done? 
 
-- The registration confirmation is immediate. The AWS accounts will be open after the kick-off on June 6th.
+- The registration confirmation should be immediate, in case of any troubles we would appreciate your patience. The AWS accounts will be open after the kick-off on June 6th.
 
 ## How can I access my AWS account? 
 
@@ -175,7 +182,7 @@ Error message:
  
 ## When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"
 
-- The image that we use is very big, it therefore can take some time to load. If it wasn't loaded after 10 minute, try to refresh your browser. 
+- It takes about 3-5 minutes to start a new kernel session so please be patient. If it wasn't loaded after 10 minutes, try to refresh your browser. 
 - If it still loads, try to shut down all running apps / instances.
 
 ## AWS CLI doesn't work in sagemaker studio notebooks
@@ -183,15 +190,9 @@ Error message:
 - Reason: The image that we are using for the challenge doesn't support the AWS command line interface (cli) due to incompatible licenses in required packages.
 - Workaround: Open an <b> system </b> terminal via the launcher. You can use the aws cli here. The filesystem is shared between all terminals / instances.
 
-## An error appeared when running on-jupyter-server-start.sh. "jupyter: command not found"
-
-- This can error can have 2 origins:
-1. You  didn't run the script in a system terminal but in an image terminal. If that's the case, please choose a <b>system</b> terminal from the launcher as described in Tutorial 1.
-2. You have chosen Jupyter Lab 3.0 (Preview) from the available versions when creating your Sagemaker Studio. Please refer to [this](#how-to-change-the-jupyter-lab-version-used-in-the-sagemaker-studio-domain) Question for how to change back to Version 1.0.
-
 ## What is the weekly budget for AWS? 
 
-- The budget will by dynamic, depending on the number and activity of the teams. We start with $50 US dollars.
+- The budget will by dynamic, depending on the number and activity of the teams.
 
 ## Can we use any component of AWS once we get access to the environment? 
 
