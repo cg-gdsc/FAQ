@@ -28,12 +28,10 @@
 - [How many times can we re-submit our improved solution?](#how-many-times-can-we-re-submit-our-improved-solution)
 
 **AWS Account related FAQs**
-- [How long does it take to get the AWS links or registration confirmation after the team registration has been done?](#how-long-does-it-take-to-get-the-aws-links-or-registration-confirmation-after-the-team-registration-has-been-done)
 - [How can I access my AWS account?](#how-can-i-access-my-aws-account)
 - [The Sagemaker studio error states: Failed to change instance; what should I do?](#the-sagemaker-studio-error-states-failed-to-change-instance-what-should-i-do)
 - [When opening a Tutorial, the Sagemaker studio seems to be stuck in the state "Starting notebook kernel"](#when-opening-a-tutorial-the-sagemaker-studio-seems-to-be-stuck-in-the-state-starting-notebook-kernel)
 - [AWS CLI doesn't work in sagemaker studio notebooks](#aws-cli-doesnt-work-in-sagemaker-studio-notebooks)
-- [How to change the jupyter lab version used in the Sagemaker Studio Domain?](#how-to-change-the-jupyter-lab-version-used-in-the-sagemaker-studio-domain)
 - [An error appeared when running on-jupyter-server-start.sh. "jupyter: command not found"](#an-error-appeared-when-running-on-jupyter-server-startsh-jupyter-command-not-found)
 - [What is the weekly budget for AWS? ](#what-is-the-weekly-budget-for-aws)
 - [Can we use any component of AWS once we get access to the environment?](#can-we-use-any-component-of-aws-once-we-get-access-to-the-environment)
@@ -159,13 +157,11 @@
 
 ## How can I access my AWS account? 
 
-- After your teams registration, you should have received an confirmation e-mail.
-- After your confirmation, you will receive an e-mail from AWS (no-reply@login.awsapps.com) with the subject: 'Invitation to join AWS Single Sign-On'. This e-mail looks like this:
-![](./screenshots/AWS_invite_mail.png)
-- Click on the button 'Accept Invitation' and enter your username from the invitation e-mail. You will be prompted to set a new password. 
-- You can now login using the link in the invitation e-mail under 'User portal URL'. The portal looks like this:
-![](./screenshots/aws_apps_portal.png)
-- You will see your AWS Account after you logged in. Now you can click on 'Management Console' to access it.  
+- Once you are part of a Team, you are ready to access your AWS account.
+- Please login to AWS with the URL and user name as given below :
+    <br> URL       : https://gdsc22.awsapps.com/start#/
+    <br> User Name : Use your full name as it is displayed in our portal on https://gdsc.ce.capgemini.com/app/portal/ in the 'My Team Page' and replace whitespace with underscores. Please mind upper- and lowercase in the name.
+- Once you do this, you'll receive an email from AWS to verify your identity. You can log in to your account afterwards.
 
 ## The Sagemaker studio error states: Failed to change instance; what should I do?
 
@@ -186,19 +182,6 @@ Error message:
 
 - Reason: The image that we are using for the challenge doesn't support the AWS command line interface (cli) due to incompatible licenses in required packages.
 - Workaround: Open an <b> system </b> terminal via the launcher. You can use the aws cli here. The filesystem is shared between all terminals / instances.
-
-## How to change the jupyter lab version used in the Sagemaker Studio Domain?
-
-- During the challenge we will only be using Jupyter Lab 1.0. 
-- If you have chosen another version, you can switch the version in the AWS management console.
-- Follow these steps:
-    - Open the Sagemaker Studio View from the control panel
-    - Click on the gear next to the word 'Domain' in the right pane
-    ![](./screenshots/sagemakerdomain_gear.jpg)
-    - You are now in Edit Domain Settings. You can navigate to Step 2: Studio Settings. Here you should choose version 1: 
-    ![](./screenshots/studio_settings.jpg).
-    - Please select the correct version (Jupyter Lab 1.0) from the drop down. 
-    - Now you can finish the setup and click on next and then submit. The changes may take a few moments to apply.
 
 ## An error appeared when running on-jupyter-server-start.sh. "jupyter: command not found"
 
