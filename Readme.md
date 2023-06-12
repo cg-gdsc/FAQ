@@ -2,6 +2,7 @@
 
 **Registration related FAQs**
 - [Where can I find all the rules for the participation?](#where-can-I-find-all-the-rules-for-the-participation)
+- [Step by step process from signing up to AWS Registration?](#step-by-step-process-from-signing-up-to-AWS-Registration)
 - [Who can participate?](#who-can-participate)
 - [Can one register as an individual?](#can-one-register-as-an-individual)
 - [Facing error while registering individually?](#facing-error-while-registering-individually)
@@ -43,7 +44,27 @@
 ## Where can I find all the rules for the participation?
 
 - Please refer to the [Website T&C](https://gdsc.ce.capgemini.com/app/termsOfUse/) and [Participation T&C](https://gdsc.ce.capgemini.com/app/dataProtection/) mentioned on the https://gdsc.ce.capgemini.com/. 
-- All the rules are mentioned here. All the participants are requested to read them fully before signing up.
+- All the rules are mentioned here. All the participants are requested to read them fully before signing up. 
+
+## Step by step process from signing up to AWS Registration?
+
+1. Navigate to the GDSC Portal's Sign-up page - https://gdsc.ce.capgemini.com/app/signup/. Enter all the required details and password in the given format. Please be sure to read and accept the applicable T&Cs. ![](./screenshots/Sign-up_2023.png)
+2. Once you Sign-up, you will receive an e-mail like the one shown below from gdsc.ce@capgemini.com. ![](./screenshots/Sign-up_validation_2023.png)
+3. Please click on the Verfication link provided in the e-mail. You will receive an error such as this. But do not worry, you can now login to the website using your e-mail ID and password. ![](./screenshots/Sign-up_invalid_link_2023.png)
+4. To login to the Website, navigate to the login page - https://gdsc.ce.capgemini.com/app/login/ and enter your credentials. ![](./screenshots/Login_2023.png)
+5. Once you login you will have access to the Resources - https://gdsc.ce.capgemini.com/app/portal/resources/. The page has link to all the information and Tutorials that you will be needing for the challenge. ![](./screenshots/Resources-2023.png)
+6. You may also join the Teams channel (https://teams.microsoft.com/l/team/19%3a4017a2e9af4942e7aa157d6ec9d751b4%40thread.skype/conversations?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61) for active dicussion on all Topics related to the channel. There is a channel for team formation ('Looking for Team') where you can find other members for you to team up with.
+7. Every participant needs to register individually and then form a Team with other participants. To form a Team navigate to - https://gdsc.ce.capgemini.com/app/portal/.    ![](./screenshots/Team-2023-1.png)
+8. You can either create a new team or join an existing team. Once you create a new team, you  will receive the Team ID which you can share with other participants who can then join your team.
+9. Existing members of the team can approve/decline requests from new members.
+10. Once you are part of a team, you can login to your AWS accounts using the below credentials:
+    <br> URL       : https://gdsc22.awsapps.com/start#/
+    <br> User Name : Use your full name as it is displayed in our portal on https://gdsc.ce.capgemini.com/app/portal/ in the 'My Team Page' and replace whitespace with underscores ("_"). Please mind upper- and lowercase in the name.
+11. Once you do this, you'll receive an email from AWS with the verification code and then you can set your password.
+12. Once your password is set, you can log in to your account afterwards. 
+13. Once you are logged in click on 'AWS Account' and then to the AWS account created for your Team.
+14. For future logins, you can directly click on  https://gdsc22.awsapps.com/start#/ 
+
 
 ## Who can participate?
 
@@ -164,16 +185,13 @@
 
 ## How can I access my AWS account? 
 
-- Once you are part of a Team, you are ready to access your AWS account. 
-- You will be receiving an e-mail from no-reply@login.awsapps.com which looks like this. ![](./screenshots/AWS_Sign-In_2023-1.png)
-- You need to click on the 'Accept Invitation' Link given in the e-mail within next 7 days of receiving the e-mail. ![](./screenshots/AWS_Sign-In_2023-2.png)
-- Please login to AWS with the URL and user name as given below :
+1. Once you are part of a team, you can login to your AWS accounts using the below credentials:
     <br> URL       : https://gdsc22.awsapps.com/start#/
-    <br> User Name : Use your full name as it is displayed in our portal on https://gdsc.ce.capgemini.com/app/portal/ in the 'My Team Page' and replace whitespace with underscores ("_"). Please mind upper- and lowercase in the name.
-- Once you do this, you'll receive an email from AWS with the verification code and then you can set your password.
-- Once your password is set, you can log in to your account afterwards. 
-- Once you are logged in click on 'AWS Account' and then to the AWS account created for your Team.
-- For future logins, you can directly click on  https://gdsc22.awsapps.com/start#/
+    <br> User Name : Use your full name as it is displayed in our portal on https://gdsc.ce.capgemini.com/app/portal/ in the 'My Team Page' and replace whitespace with  underscores ("_"). Please mind upper- and lowercase in the name.
+2. Once you do this, you'll receive an email from AWS with the verification code and then you can set your password.
+3. Once your password is set, you can log in to your account afterwards. 
+4. Once you are logged in click on 'AWS Account' and then to the AWS account created for your Team.
+5. For future logins, you can directly click on  https://gdsc22.awsapps.com/start#/ 
 
 ## The Sagemaker studio error states: Failed to change instance; what should I do?
 
