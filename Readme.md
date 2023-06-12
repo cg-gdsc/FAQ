@@ -164,11 +164,16 @@
 
 ## How can I access my AWS account? 
 
-- Once you are part of a Team, you are ready to access your AWS account.
+- Once you are part of a Team, you are ready to access your AWS account. 
+- You will be receiving an e-mail from no-reply@login.awsapps.com which looks like this. ![](./screenshots/AWS_Sign-In_2023-1.png)
+- You need to click on the 'Accept Invitation' Link given in the e-mail within next 7 days of receiving the e-mail. ![](./screenshots/AWS_Sign-In_2023-2.png)
 - Please login to AWS with the URL and user name as given below :
     <br> URL       : https://gdsc22.awsapps.com/start#/
-    <br> User Name : Use your full name as it is displayed in our portal on https://gdsc.ce.capgemini.com/app/portal/ in the 'My Team Page' and replace whitespace with underscores. Please mind upper- and lowercase in the name.
-- Once you do this, you'll receive an email from AWS to verify your identity. You can log in to your account afterwards.
+    <br> User Name : Use your full name as it is displayed in our portal on https://gdsc.ce.capgemini.com/app/portal/ in the 'My Team Page' and replace whitespace with underscores ("_"). Please mind upper- and lowercase in the name.
+- Once you do this, you'll receive an email from AWS with the verification code and then you can set your password.
+- Once your password is set, you can log in to your account afterwards. 
+- Once you are logged in click on 'AWS Account' and then to the AWS account created for your Team.
+- For future logins, you can directly click on  https://gdsc22.awsapps.com/start#/
 
 ## The Sagemaker studio error states: Failed to change instance; what should I do?
 
