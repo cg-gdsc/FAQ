@@ -195,6 +195,8 @@ Error message:
 ## What is the weekly budget for AWS? 
 
 - The budget will by dynamic, depending on the number and activity of the teams.
+- The initial budget is $50 per week, which will be revised a tad bit every week by the administrators.
+- Your credit can get carry over for a month post which they would lapse.
 
 ## Can we use any component of AWS once we get access to the environment? 
 
