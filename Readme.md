@@ -1,7 +1,7 @@
 # Frequently Asked Questions
 
 **Registration related FAQs**
-- [Where can I find all the rules for the participation?](#where-can-I-find-all-the-rules-for-the-participation)
+- [Where can I find all the rules for the participation?](#where-can-i-find-all-the-rules-for-the-participation)
 - [Who can participate?](#who-can-participate)
 - [Can one register as an individual?](#can-one-register-as-an-individual)
 - [Facing error while registering individually?](#facing-error-while-registering-individually)
@@ -27,6 +27,9 @@
 - [Can we have the kickoff session PowerPoint?](#can-we-have-the-kickoff-session-powerpoint)
 - [When do we receive access to the dataset? ](#when-do-we-receive-access-to-the-dataset)
 - [How many times can we re-submit our improved solution?](#how-many-times-can-we-re-submit-our-improved-solution)
+- [Why do I have to rate battles?](#why-do-i-have-to-rate-battles)
+- [What to do if the automatic evaluation fails?](#what-to-do-if-the-automatic-evaluation-fails)
+- [My submission status says *"In progress"* for a long time](#my-submission-status-says-is-progress-for-a-long-time)
 
 **AWS Account related FAQs**
 - [How can I access my AWS account?](#how-can-i-access-my-aws-account)
@@ -35,7 +38,6 @@
 - [AWS CLI doesn't work in sagemaker studio notebooks](#aws-cli-doesnt-work-in-sagemaker-studio-notebooks)
 - [What is the weekly budget for AWS? ](#what-is-the-weekly-budget-for-aws)
 - [Can we use any component of AWS once we get access to the environment?](#can-we-use-any-component-of-aws-once-we-get-access-to-the-environment)
-- [The AWS will be provided with GPU instances for training, correct?](#the-aws-will-be-provided-with-gpu-instances-for-training-correct)
 - [How to check AWS service expenses?](#how-to-check-aws-service-expenses)
 - [How do you best collaborate with Sagemaker?](#how-do-you-best-collaborate-with-sagemaker)
 
@@ -74,13 +76,18 @@
 - Fill out the Sign-Up form for registering individually. 
 - Don't worry if the following inofrmation pops up: *Invalid link provided, please request a link again.*
 - Once you sign up you can form your team using the Portal page. You can either provide a new name and create a team or join an existing team using the Team ID.
-- The website will be open to allow Team registrations between 6th - 30th June
-- Individual Signups/registrations will be open from 18th May onwards
+- The website will be open to allow signups and Team registrations between 23rd September - 28th October
 
 
 ## How many people can join one team?
 
-- The max. size of a team is 4 people. 
+- The max. size of a team is 4 people.
+
+## Can I change my team later?
+
+- Yes, you can change your team later. Just remember that the number of battles rated by your team
+is a sum of battles evaluated by each of the members. While changing the team you take your evaluation
+count with you.
 
 ## Is it mandatory to have a team size of four people? 
 
@@ -93,10 +100,6 @@
 ## Can I change my team name later?
 
 - No. The name given while creating the team would be considered as the final one.
-
-## Can I change my team later?
-
-- Yes, you can change your team later. But a participant can only change their team once during the course of the competition.
 
 ## How to reset the password?
 - Click the "Forgot Password" button at the [signup page](https://gdsc.ce.capgemini.com/app/login/)
@@ -140,7 +143,7 @@
 
 ## Where do I find the notebooks from the Tutorials?
 
-- You can find the notebooks in the [GitHub repo](https://github.com/cg-gdsc/GDSC-6)
+- You can find the notebooks in the [GitHub repo](https://github.com/cg-gdsc/GDSC-7)
 
 ## Where do I find the videos for the Tutorials?
 
@@ -152,25 +155,48 @@
 
 ## When do we receive access to the dataset? 
 
-- Access to the dataset will be provided after the kick-off on June 6th.
+- Access to the dataset will be provided after the kick-off on September 30th.
 
 ## How many times can we re-submit our improved solution?
 
-- You can re-submit your improved solution as often as you want. However, if we detect a team is spamming the submission page, we will block the team from doing that. For reference, in the GDSC 2020, there was one team with over 1,000 submissions.
+- You can re-submit your improved solution as often as you want. 
+However, because of this year's evaluation method there were introduced additional constraints. We need you as
+evaluators of battles of other participants' submissions and therefore your team has to rate a specific
+number of battles before a new submission. First two are free, for the third one requires 10 rated battles and
+the number grows from that value to a stable 50 battles per submission. The number of required battles for your
+team is displayed at the [arena page](https://gdsc.ce.capgemini.com/app/arena/).
+
+## Why do I have to rate battles?
+- Since submissions are evaluated by competing on the arena and there is almost no automatic evaluation, 
+this system had to be implemented because having a large number of submissions requires a lot of battles 
+for adequate ranking.
+
+## What to do if the automatic evaluation fails?
+- If the automatic evaluation fails that means your new submission did not answer correctly, timed out or another unexpected error occured. The reason is displayed on the the team's website:
+  - "Unexpected error" - this status means there were issues with starting the `app.py` script. Chceck your submission implementation and `create_submission` function implementation. In some cases more specific error might occure:
+    - Submission code error - this means that the app started but there was an error somewhere while executing your code.
+    - Endpoint unreachable - this means there is an error that stops the application from launching (the docker image works but the app is not responsive).
+  - "Timeout" - this status means that your submission failed to answer to at least one of automatic evaluation questions in time.
+  - "Incorrect answers" - this status means that at least one of the answers was not correct. 
+
+## My submission status says *"Is progress"* for a long time.
+- Evaluation may take up to 1 hour. If the displayed status is "In progress" for a suspiciously long period 
+of time, that being a few hours, please contact GDSC organizers.
 
 ## How long does it take to get the AWS links or registration confirmation after the team registration has been done? 
 
-- The registration confirmation should be immediate, in case of any troubles we would appreciate your patience. The AWS accounts will be open after the kick-off on June 6th.
+- The registration confirmation should be immediate, in case of any troubles we would appreciate your 
+ patience. The AWS accounts will be open after the kick-off on September 30th.
 
 ## How can I access my AWS account? 
 
-1. Once you are part of a team, you can login to your AWS accounts using the below credentials:
-    <br> URL       : https://gdsc22.awsapps.com/start#/
-    <br> User Name : Use your full name as it is displayed in our portal on https://gdsc.ce.capgemini.com/app/portal/ in the 'My Team Page' and replace whitespace with  underscores ("_"). Please mind upper- and lowercase in the name.
-2. Once you do this, you'll receive an email from AWS with the verification code and then you can set your password.
-3. Once your password is set, you can log in to your account afterwards. 
-4. Once you are logged in click on 'AWS Account' and then to the AWS account created for your Team.
-5. For future logins, you can directly click on  https://gdsc22.awsapps.com/start#/ 
+1. Once you are part of a team, you can log in to your AWS accounts using the below credentials:
+   - Go to [AWS access portal](https://gdsc22.awsapps.com/start#/).
+   - Use your Capgemini email to log in (the same one used for registration in GDSC).
+   - You will receive an email from WAS to verify your identity.
+   - Once verified you can log in to your account.
+2. You can see the name of your account displayed on [your team page](https://gdsc.ce.capgemini.com/app/portal/).
+3. For future logins, you can directly click on  https://gdsc22.awsapps.com/start#/ 
 
 ## The Sagemaker studio error states: Failed to change instance; what should I do?
 
@@ -201,10 +227,6 @@ Error message:
 ## Can we use any component of AWS once we get access to the environment? 
 
 - Not quite. You have access to everything you’ll need to build a successful solution. Services that are not required are disabled.
-
-## The AWS will be provided with GPU instances for training, correct? 
-
-- Yes, each team will have one Graphics Processing Unit (GPU) instance at their disposal.
 
 ## How to check AWS service expenses?
 
