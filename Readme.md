@@ -85,9 +85,7 @@
 
 ## Can I change my team later?
 
-- Yes, you can change your team later. Just remember that the number of battles rated by your team
-is a sum of battles evaluated by each of the members. While changing the team you take your evaluation
-count with you.
+- Yes, you can change your team later. Simply leave your current team and join a new one or make one yourself.
 
 ## Is it mandatory to have a team size of four people? 
 
