@@ -30,6 +30,7 @@
 - [Why do I have to rate battles?](#why-do-i-have-to-rate-battles)
 - [What to do if the automatic evaluation fails?](#what-to-do-if-the-automatic-evaluation-fails)
 - [My submission status says *"In progress"* for a long time](#my-submission-status-says-is-progress-for-a-long-time)
+- [Database credentials don't work](#database-credentials-dont-work)
 
 **AWS Account related FAQs**
 - [How can I access my AWS account?](#how-can-i-access-my-aws-account)
@@ -154,6 +155,11 @@
 ## When do we receive access to the dataset? 
 
 - Access to the dataset will be provided after the kick-off on September 30th.
+
+## Database credentials don't work
+
+- Check where did you get the credentials from. The correct version can be found in tutorial 2 and 3
+ that you can access via SageMaker or CodeCommit. Credentials in the **video tutorial 2** are **out of date**!
 
 ## How many times can we re-submit our improved solution?
 
