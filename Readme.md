@@ -27,10 +27,12 @@
 - [Can we have the kickoff session PowerPoint?](#can-we-have-the-kickoff-session-powerpoint)
 - [When do we receive access to the dataset? ](#when-do-we-receive-access-to-the-dataset)
 - [How many times can we re-submit our improved solution?](#how-many-times-can-we-re-submit-our-improved-solution)
-- [Why do I have to rate battles?](#why-do-i-have-to-rate-battles)
+- [How much will API calls cost during development?](#how-much-will-api-calls-cost-during-development)
+- [How do I set up my Mistral API key?](#how-do-i-set-up-my-mistral-api-key)
 - [What to do if the automatic evaluation fails?](#what-to-do-if-the-automatic-evaluation-fails)
 - [My submission status says *"In progress"* for a long time](#my-submission-status-says-is-progress-for-a-long-time)
-- [Database credentials don't work](#database-credentials-dont-work)
+- [How do I manage costs while developing my AI agents?](#how-do-i-manage-costs-while-developing-my-ai-agents)
+- [What are personas and how do I interview them?](#what-are-personas-and-how-do-i-interview-them)
 
 **AWS Account related FAQs**
 - [How can I access my AWS account?](#how-can-i-access-my-aws-account)
@@ -142,7 +144,7 @@
 
 ## Where do I find the notebooks from the Tutorials?
 
-- You can find the notebooks in the [GitHub repo](https://github.com/cg-gdsc/GDSC-7)
+- You can find the notebooks in the [GitHub repo](https://github.com/cg-gdsc/GDSC-8)
 
 ## Where do I find the videos for the Tutorials?
 
@@ -156,41 +158,38 @@
 
 - Access to the dataset will be provided after the kick-off on September 30th.
 
-## Database credentials don't work
+## My persona interviews are failing or returning errors
 
-- Check where did you get the credentials from. The correct version can be found in tutorial 2 and 3
- that you can access via SageMaker or CodeCommit. Credentials in the **video tutorial 2** are **out of date**!
+- Check that you have set up the Mistral API Key
+- Check that you're using the correct persona API endpoint and authentication
+- Ensure you haven't exceeded the daily limit of TODO conversations per persona
+- Verify your conversation hasn't exceeded the TODO message limit
+- Check your AWS credentials are properly configured for API authentication
+- If a conversation gets stuck, you can start a new conversation with a different conversation_id
 
 ## How many times can we re-submit our improved solution?
 
-- You can re-submit your improved solution as often as you want. 
-However, because of this year's evaluation method there were introduced additional constraints. We need you as
-evaluators of battles of other participants' submissions and therefore your team has to rate a specific
-number of battles before a new submission. First two are free, for the third one requires 10 rated battles and
-the number grows from that value to a stable 50 battles per submission. The number of required battles for your
-team is displayed at the [arena page](https://gdsc.ce.capgemini.com/app/arena/).
+- You can make **TODO submission per day**
+- Each submission will be automatically evaluated against a test dataset.
+- Be mindful of your API costs when developing and testing your solution, as each API call to services like Mistral will incur charges.
 
-## Why do I have to rate battles?
-- Since submissions are evaluated by competing on the arena and there is almost no automatic evaluation, 
-this system had to be implemented because having a large number of submissions requires a lot of battles 
-for adequate ranking.
+## How much will API calls cost during development?
 
-## What to do if the automatic evaluation fails?
-- If the automatic evaluation fails that means your new submission did not answer correctly, timed out or another unexpected error occured. The reason is displayed on the the team's website:
-  - "Unexpected error" - this status means there were issues with starting the `app.py` script. Chceck your submission implementation and `create_submission` function implementation. In some cases more specific error might occure:
-    - Submission code error - this means that the app started but there was an error somewhere while executing your code.
-    - Endpoint unreachable - this means there is an error that stops the application from launching (the docker image works but the app is not responsive).
-  - "Timeout" - this status means that your submission failed to answer to at least one of automatic evaluation questions in time.
-  - "Incorrect answers" - this status means that at least one of the answers was not correct. 
+- API costs depend on your usage patterns. Based on tutorial examples:
+  - Persona interviews: ~$0.02 per persona with medium model
+  - Data extraction: ~$0.001 per extraction with small model  
+  - Semantic matching: ~$0.05 per persona with medium model
+- Budget approximately $5-10 for full development and testing of 100 personas
+- Use the cost tracking utilities provided in the tutorials to monitor your spending
 
-## My submission status says *"Is progress"* for a long time.
-- Evaluation may take up to 1 hour. If the displayed status is "In progress" for a suspiciously long period 
-of time, that being a few hours, please contact GDSC organizers.
+## What to do if the submission format check fails?
+- If the submission format check fails see what the message says. Oftentimes you will receive a clear message on what was not okay with the format you provided.
+- If the local function for validation passes and the remote one fails, check if you accidentally did not introduce any changes to the local code.
 
 ## How long does it take to get the AWS links or registration confirmation after the team registration has been done? 
 
 - The registration confirmation should be immediate, in case of any troubles we would appreciate your 
- patience. The AWS accounts will be open after the kick-off on September 30th.
+ patience. The AWS accounts will be open after the kick-off on September 17th.
 
 ## How can I access my AWS account? 
 
@@ -239,5 +238,31 @@ Error message:
 ## How do you best collaborate with Sagemaker
 
 - Use some planning tool like trello or the teams planer to structure tasks. As long as you are in the ideation phase, use a different notebook for each team member. If you need branches, do one check out per team member. Then everybody works on their own directory.
+
+## How do I set up my Mistral API key?
+
+- Sign up for a Mistral account at [https://mistral.ai/](https://mistral.ai/)
+- Generate an API key from your Mistral dashboard
+- Store it in your `.env` file as `MISTRAL_API_KEY=your_key_here`
+- Never commit your API key to version control
+- The tutorials include detailed setup instructions
+
+## How do I manage costs while developing my AI agents?
+
+- Use the cost tracking utilities provided in `src/utils.py`:
+  - `track_api_call()` to monitor each API call
+  - `print_cost_summary()` to see your spending
+  - `reset_cost_tracker()` to start fresh tracking
+- Start with small model testing (cheaper) before using medium/large models
+- Test with fewer personas first (e.g., 5-10) before processing all 100
+- Cache processed data to avoid re-processing the same information
+
+## What are personas and how do I interview them?
+
+- Personas are simulated job seekers with unique profiles, skills, and preferences
+- You interview them via API calls to gather information about their background
+- Each persona has a daily limit of TODO conversations with TODO messages max per conversation
+- Use structured questions to efficiently gather: name, skills, location, age, and experience
+- The tutorials provide example interview strategies and conversation patterns
 
 
